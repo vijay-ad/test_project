@@ -6,7 +6,10 @@ def add(a, b):
         return 'enter non zero values'
 
 def sub(a, b):
-    return a - b
+    if a > 0 and b > 0:
+        return a - b
+    else:
+        return 'Enter non zero values'
 
 
 def multiply(a, b):
